@@ -54,7 +54,7 @@ p {
 	height: 60px;
 }
 #sectionWrapper {
-	background-color: rgba(0,0,0,.1);
+	background-color: rgba(0,0,0,.3);
 	border-radius: 10px;
 	box-shadow: inset 0px 0px 11px black;
 	padding-top: 10px;
