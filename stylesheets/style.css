@@ -12,6 +12,7 @@ body {
 	background-color: rgba(240,240,240,.4);
 	color: white;
 	border-radius: 10px;
+	padding: 50px;
 }
 #sectionWrapper {
 	width: 100%;
