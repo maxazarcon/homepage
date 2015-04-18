@@ -58,6 +58,7 @@ body {
 }
 .section {
 	padding: 30px;
+	box-shadow: 0px 0px 10px black inset;
 }
 .row div {
 	display: inline;
