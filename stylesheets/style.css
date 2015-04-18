@@ -48,3 +48,9 @@ body {
 .skillLvl {
 	float: right;
 }
+h1.title {
+	background-color: rgba(0,0,0,.1);
+}
+h2.title {
+	text-align: center;
+}
