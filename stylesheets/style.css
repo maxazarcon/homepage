@@ -7,6 +7,9 @@ body {
 	background-size: cover;
 	overflow-y: scroll;
 }
+.hidden {
+	display: none;
+}
 #mainBody {
 	width: 800px;
 	margin: 0 auto;
@@ -78,7 +81,4 @@ h2.title {
 }
 .project {
 	text-align: center;
-}
-.hidden {
-	display: none;
 }
