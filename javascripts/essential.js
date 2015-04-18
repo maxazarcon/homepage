@@ -7,7 +7,7 @@ $(function() {
 		$("#skillsTab").hide();
 		$("#resumeTab").hide();
 
-		$("#homeButton").fadeOut();
+		$("#homeButton").fadeOut("slow");
 		$("#contactButton").show();
 		$("#portfolioButton").show();
 		$("#skillsButton").show();
@@ -22,7 +22,7 @@ $(function() {
 		$("#resumeTab").hide();
 
 		$("#homeButton").show();
-		$("#contactButton").fadeOut();
+		$("#contactButton").fadeOut("slow");
 		$("#portfolioButton").show();
 		$("#skillsButton").show();
 		$("#resumeButton").show();
@@ -37,7 +37,7 @@ $(function() {
 
 		$("#homeButton").show();
 		$("#contactButton").show();
-		$("#portfolioButton").fadeOut();
+		$("#portfolioButton").fadeOut("slow");
 		$("#skillsButton").show();
 		$("#resumeButton").show();
 	});
@@ -52,8 +52,9 @@ $(function() {
 		$("#homeButton").show();
 		$("#contactButton").show();
 		$("#portfolioButton").show();
-		$("#skillsButton").fadeOut();
+		$("#skillsButton").fadeOut("slow");
 		$("#resumeButton").show();
+	});
 		
 		$("#resumeButton").on("click", function() {
 		$("#homeTab").hide();
@@ -66,7 +67,6 @@ $(function() {
 		$("#contactButton").show();
 		$("#portfolioButton").show();
 		$("#skillsButton").show();
-		$("#resumeButton").fadeOut();
-	});
+		$("#resumeButton").fadeOut("slow");
 	});
 });
