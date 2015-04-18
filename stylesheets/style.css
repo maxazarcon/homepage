@@ -1,6 +1,8 @@
 body {
 	margin: 0;
 	padding: 0;
+	background-image: url('images/rocky-shores.jpg');
+	background-size: cover;
 }
 .row div {
 	display: inline;
