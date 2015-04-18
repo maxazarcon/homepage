@@ -77,3 +77,6 @@ h2.title {
 .project {
 	text-align: center;
 }
+.hidden {
+	display: none;
+}
