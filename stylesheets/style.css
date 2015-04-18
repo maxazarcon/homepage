@@ -9,8 +9,7 @@ body {
 #mainBody {
 	width: 760px;
 	margin: 0 auto;
-	background-color: rgba(240,240,240,.6);
-	color: white;
+	background-color: rgba(240,240,240,.8);
 	padding: 50px;
 	border-radius: 25px;
 }
