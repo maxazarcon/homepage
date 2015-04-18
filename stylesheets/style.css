@@ -24,8 +24,7 @@ body {
 	background-color: rgba(0,0,0,.1);
 	border-radius: 10px;
 	box-shadow: 5px 5px 11px black;
-	border-top: 1px solid black;
-	border-left: 1px solid black;
+	box-shadow: inset(5px 5px 11px black);
 }
 .section {
 	width: 100%;
