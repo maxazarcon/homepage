@@ -25,8 +25,22 @@ body {
 .navButton {
 	margin: 5px 5px;
 	width: 60px;
-	display: inline;
-	box-shadow: 5px 5px 15px black inset;
+	height: 60px;
+	display: inline-block;
+	border: 1px black solid;
+	box-shadow: 2px 2px 7px black inset;
+	border-radius: 10px;
+}
+.navButton:hover {
+	background-color: rgba(0,0,0,.1);
+}
+.navButton:active {
+	margin: 5px 5px;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	border: 1px black solid;
+	box-shadow: 5px 5px 10px black inset;
 	border-radius: 10px;
 }
 .navButton img {
