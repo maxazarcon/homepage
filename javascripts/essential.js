@@ -7,11 +7,12 @@ $(function() {
 		$("#skillsTab").hide();
 		$("#resumeTab").hide();
 
-		$("#homeButton").fadeOut("slow");
-		$("#contactButton").show();
-		$("#portfolioButton").show();
-		$("#skillsButton").show();
-		$("#resumeButton").show();
+		$("#homeButton").fadeOut("slow", function() {
+			$("#contactButton").fadeIn("slow");
+			$("#portfolioButton").fadeIn("slow");
+			$("#skillsButton").fadeIn("slow");
+			$("#resumeButton").fadeIn("slow");
+		});
 	});
 
 	$("#contactButton").on("click", function() {
@@ -21,11 +22,12 @@ $(function() {
 		$("#skillsTab").hide();
 		$("#resumeTab").hide();
 
-		$("#homeButton").show();
-		$("#contactButton").fadeOut("slow");
-		$("#portfolioButton").show();
-		$("#skillsButton").show();
-		$("#resumeButton").show();
+		$("#contactButton").fadeOut("slow", function() {
+			$("#homeButton").fadeIn("slow");
+			$("#portfolioButton").fadeIn("slow");
+			$("#skillsButton").fadeIn("slow");
+			$("#resumeButton").fadeIn("slow");
+		});
 	});
 
 	$("#portfolioButton").on("click", function() {
@@ -35,38 +37,42 @@ $(function() {
 		$("#skillsTab").hide();
 		$("#resumeTab").hide();
 
-		$("#homeButton").show();
-		$("#contactButton").show();
-		$("#portfolioButton").fadeOut("slow");
-		$("#skillsButton").show();
-		$("#resumeButton").show();
+		$("#portfolioButton").fadeOut("slow", function() {
+			$("#homeButton").fadeIn("slow");
+			$("#contactButton").fadeIn("slow");
+			$("#skillsButton").fadeIn("slow");
+			$("#resumeButton").fadeIn("slow");
+		});
+
 	});
-	
-		$("#skillsButton").on("click", function() {
+
+	$("#skillsButton").on("click", function() {
 		$("#homeTab").hide();
 		$("#contactTab").hide();
 		$("#portfolioTab").hide();
 		$("#skillsTab").show();
 		$("#resumeTab").hide();
 
-		$("#homeButton").fadeIn("slow");
-		$("#contactButton").fadeIn("slow");
-		$("#portfolioButton").fadeIn("slow");
-		$("#skillsButton").fadeOut("slow");
-		$("#resumeButton").fadeIn("slow");
+		$("#skillsButton").fadeOut("slow", function() {
+			$("#homeButton").fadeIn("slow");
+			$("#contactButton").fadeIn("slow");
+			$("#portfolioButton").fadeIn("slow");
+			$("#resumeButton").fadeIn("slow");
+		});
 	});
-		
-		$("#resumeButton").on("click", function() {
+
+	$("#resumeButton").on("click", function() {
 		$("#homeTab").hide();
 		$("#contactTab").hide();
 		$("#portfolioTab").hide();
 		$("#skillsTab").hide();
 		$("#resumeTab").show();
 
-		$("#homeButton").show();
-		$("#contactButton").show();
-		$("#portfolioButton").show();
-		$("#skillsButton").show();
-		$("#resumeButton").fadeOut("slow");
+		$("#resumeButton").fadeOut("slow", function() {
+			$("#homeButton").fadeIn("slow");
+			$("#contactButton").fadeIn("slow");
+			$("#portfolioButton").fadeIn("slow");
+			$("#skillsButton").fadeIn("slow");
+		});
 	});
 });
