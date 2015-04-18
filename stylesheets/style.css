@@ -3,8 +3,14 @@ body {
 	padding: 0;
 	height: 100%;
 	width: 100%;
-	background-image: url('images/streets.jpg');
+	background-image: url('../images/streets.jpg');
 	background-size: cover;
+}
+#mainBody {
+	width: 80%;
+	margin: 0 auto;
+	background-color: rgba(240,240,240,.4);
+	color: white;
 }
 .row div {
 	display: inline;
