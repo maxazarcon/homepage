@@ -7,6 +7,9 @@ body {
 	background-size: cover;
 	overflow-y: scroll;
 }
+p {
+	font-size: 1.4em;
+}
 .hidden {
 	display: none;
 }
