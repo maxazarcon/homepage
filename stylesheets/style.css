@@ -39,9 +39,6 @@ body {
 .clear {
 	clear: both;
 }
-#skillSection {
-	width: 100%;
-}
 .toolLvl,
 .skillLvl {
 	float: right;
