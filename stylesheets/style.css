@@ -21,7 +21,7 @@ body {
 .row div {
 	display: inline;
 }
-#skills .skillSection {
+#skills.skillSection {
 	display: inline;
 }
 .left {
