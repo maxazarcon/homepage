@@ -1,3 +1,11 @@
+$(document).ready(function(){
+	$("homeButton").hide();
+	$("#contactTab").hide();
+	$("#portfolioTab").hide();
+	$("#skillsTab").hide();
+	$("#resumeTab").hide();
+});
+
 $(function() {
 
 	$("#homeButton").on("click", function() {
