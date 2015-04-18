@@ -49,11 +49,11 @@ $(function() {
 		$("#skillsTab").show();
 		$("#resumeTab").hide();
 
-		$("#homeButton").show();
-		$("#contactButton").show();
-		$("#portfolioButton").show();
+		$("#homeButton").fadeIn("slow");
+		$("#contactButton").fadeIn("slow");
+		$("#portfolioButton").fadeIn("slow");
 		$("#skillsButton").fadeOut("slow");
-		$("#resumeButton").show();
+		$("#resumeButton").fadeIn("slow");
 	});
 		
 		$("#resumeButton").on("click", function() {
