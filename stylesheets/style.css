@@ -7,7 +7,7 @@ body {
 	background-size: cover;
 }
 #mainBody {
-	width: 760px;
+	width: 800px;
 	margin: 0 auto;
 	background-color: rgba(200,200,200,.7);
 	padding: 50px;
@@ -23,7 +23,12 @@ body {
 }
 .left {
 	float: left;
+	width: 350px;
 }
 .right {
 	float: right;
+	width: 350px;
+}
+.clear {
+	clear: both;
 }
