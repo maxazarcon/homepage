@@ -9,7 +9,7 @@ body {
 #mainBody {
 	width: 760px;
 	margin: 0 auto;
-	background-color: rgba(240,240,240,.8);
+	background-color: rgba(200,200,200,.7);
 	padding: 50px;
 	border-radius: 25px;
 }
@@ -20,4 +20,10 @@ body {
 }
 .row div {
 	display: inline;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
 }
