@@ -19,6 +19,15 @@ body {
 	border-radius: 10px;
 	box-shadow: 5px 5px 15px black;
 }
+#nav {
+	text-align: center;
+}
+.navButton {
+	margin: 5px 5px;
+	height: 75px;
+	width: 75px;
+	display: inline;
+}
 #sectionWrapper {
 	background-color: rgba(0,0,0,.1);
 	border-radius: 10px;
