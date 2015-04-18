@@ -34,3 +34,6 @@ body {
 .clear {
 	clear: both;
 }
+#skillSection {
+	width: 100%;
+}
