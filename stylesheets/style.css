@@ -62,7 +62,7 @@ p {
 .section {
 	padding: 30px;
 	box-shadow: 0px 0px 15px black inset;
-	background-color: rgba(200,200,200,.5)
+	background-color: rgba(200,200,200,.5);
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 }
