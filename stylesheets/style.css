@@ -49,6 +49,9 @@ body {
 	float: right;
 }
 h1.title {
+	margin: 0;
+	padding: 0;
+	width: 100%;
 	background-color: rgba(0,0,0,.1);
 }
 h2.title {
