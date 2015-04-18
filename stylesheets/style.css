@@ -30,3 +30,6 @@ body {
 .clear {
 	clear: both;
 }
+.tools {
+	text-align: left;
+}
