@@ -25,13 +25,12 @@ body {
 .navButton {
 	margin: 5px 5px;
 	width: 60px;
-	height: 60px;
 	display: inline;
 	box-shadow: 5px 5px 15px black inset;
 	border-radius: 10px;
 }
 .navButton img {
-	height: 100%;
+	height: 60px;
 }
 #sectionWrapper {
 	background-color: rgba(0,0,0,.1);
