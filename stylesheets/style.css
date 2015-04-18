@@ -30,6 +30,9 @@ body {
 	box-shadow: 5px 5px 15px black inset;
 	border-radius: 10px;
 }
+.navButton img {
+	height: 100%;
+}
 #sectionWrapper {
 	background-color: rgba(0,0,0,.1);
 	border-radius: 10px;
