@@ -37,7 +37,7 @@ $(function() {
 
 		$("#homeButton").show();
 		$("#contactButton").show();
-		$("#portfolioButton").fadeout();
+		$("#portfolioButton").fadeOut();
 		$("#skillsButton").show();
 		$("#resumeButton").show();
 	});
