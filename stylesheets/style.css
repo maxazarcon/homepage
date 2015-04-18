@@ -21,9 +21,6 @@ body {
 .row div {
 	display: inline;
 }
-#skills.skillSection {
-	display: inline;
-}
 .left {
 	float: left;
 }
