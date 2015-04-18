@@ -20,14 +20,14 @@ body {
 	box-shadow: 5px 5px 15px black;
 }
 #sectionWrapper {
-	padding: 30px;
 	background-color: rgba(0,0,0,.1);
 	border-radius: 10px;
 	box-shadow: inset 0px 0px 11px black;
 }
 .section {
+	
 	width: 100%;
-	padding: 0;
+	padding: 30px;
 }
 .row div {
 	display: inline;
