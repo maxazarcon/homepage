@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$("homeButton").hide();
+	$("#homeButton").hide();
 	$("#contactTab").hide();
 	$("#portfolioTab").hide();
 	$("#skillsTab").hide();
