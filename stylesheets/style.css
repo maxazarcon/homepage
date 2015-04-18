@@ -21,13 +21,14 @@ body {
 .row div {
 	display: inline;
 }
+#skills .skillSection {
+	display: inline;
+}
 .left {
 	float: left;
-	width: 350px;
 }
 .right {
 	float: right;
-	width: 350px;
 }
 .clear {
 	clear: both;
