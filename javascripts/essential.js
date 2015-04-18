@@ -10,16 +10,16 @@ $(function() {
 
 	$("#homeButton").click(function() {
 		$("#contactTab").fadeOut("slow", function(){
-			$("#homeTab").fadeIn("slow");
+			$("#homeTab").show();
 		});
 		$("#portfolioTab").fadeOut("slow", function(){
-			$("#homeTab").fadeIn("slow");
+			$("#homeTab").show();
 		});
 		$("#skillsTab").fadeOut("slow", function(){
-			$("#homeTab").fadeIn("slow");
+			$("#homeTab").show();
 		});
 		$("#resumeTab").fadeOut("slow", function(){
-			$("#homeTab").fadeIn("slow");
+			$("#homeTab").show();
 		});
 
 		$("#homeButton").fadeOut("slow", function() {
