@@ -9,18 +9,11 @@ $(document).ready(function(){
 $(function() {
 
 	$("#homeButton").click(function() {
-		$("#contactTab").fadeOut("slow", function(){
-			$("#homeTab").show();
-		});
-		$("#portfolioTab").fadeOut("slow", function(){
-			$("#homeTab").show();
-		});
-		$("#skillsTab").fadeOut("slow", function(){
-			$("#homeTab").show();
-		});
-		$("#resumeTab").fadeOut("slow", function(){
-			$("#homeTab").show();
-		});
+		$("#homeTab").show();
+		$("#contactTab").hide();
+		$("#portfolioTab").hide();
+		$("#skillsTab").hide();
+		$("#resumeTab").hide();
 
 		$("#homeButton").fadeOut("slow", function() {
 			$("#contactButton").fadeIn("slow");
@@ -31,18 +24,11 @@ $(function() {
 	});
 
 	$("#contactButton").click(function() {
-		$("#homeTab").fadeOut("slow", function(){
-			$("#contactTab").show();
-		});
-		$("#portfolioTab").fadeOut("slow", function(){
-			$("#contactTab").show();
-		});
-		$("#skillsTab").fadeOut("slow", function(){
-			$("#contactTab").show();
-		});
-		$("#resumeTab").fadeOut("slow", function(){
-			$("#contactTab").show();
-		});
+		$("#homeTab").hide();
+		$("#contactTab").show();
+		$("#portfolioTab").hide();
+		$("#skillsTab").hide();
+		$("#resumeTab").hide();
 
 		$("#contactButton").fadeOut("slow", function() {
 			$("#homeButton").fadeIn("slow");
@@ -53,18 +39,11 @@ $(function() {
 	});
 
 	$("#portfolioButton").click(function() {
-		$("#homeTab").fadeOut("slow", function(){
-			$("#portfolioTab").show();
-		});
-		$("#contactTab").fadeOut("slow", function(){
-			$("#portfolioTab").show();
-		});
-		$("#skillsTab").fadeOut("slow", function(){
-			$("#portfolioTab").show();
-		});
-		$("#resumeTab").fadeOut("slow", function(){
-			$("#portfolioTab").show();
-		});
+		$("#homeTab").hide();
+		$("#contactTab").hide();
+		$("#portfolioTab").show();
+		$("#skillsTab").hide();
+		$("#resumeTab").hide();
 
 		$("#portfolioButton").fadeOut("slow", function() {
 			$("#homeButton").fadeIn("slow");
@@ -76,18 +55,11 @@ $(function() {
 	});
 
 	$("#skillsButton").click(function() {
-		$("#homeTab").fadeOut("slow", function(){
-			$("#skillsTab").show();
-		});
-		$("#contactTab").fadeOut("slow", function(){
-			$("#skillsTab").show();
-		});
-		$("#portfolioTab").fadeOut("slow", function(){
-			$("#skillsTab").show();
-		});
-		$("#resumeTab").fadeOut("slow", function(){
-			$("#skillsTab").show();
-		});
+		$("#homeTab").hide();
+		$("#contactTab").hide();
+		$("#portfolioTab").hide();
+		$("#skillsTab").show();
+		$("#resumeTab").hide();
 
 		$("#skillsButton").fadeOut("slow", function() {
 			$("#homeButton").fadeIn("slow");
@@ -98,18 +70,11 @@ $(function() {
 	});
 
 	$("#resumeButton").click(function() {
-		$("#homeTab").fadeOut("slow", function(){
-			$("#resumeTab").show();
-		});
-		$("#contactTab").fadeOut("slow", function(){
-			$("#resumeTab").show();
-		});
-		$("#portfolioTab").fadeOut("slow", function(){
-			$("#resumeTab").show();
-		});
-		$("#skillsTab").fadeOut("slow", function(){
-			$("#resumeTab").show();
-		});
+		$("#homeTab").hide();
+		$("#contactTab").hide();
+		$("#portfolioTab").hide();
+		$("#skillsTab").hide();
+		$("#resumeTab").show();
 
 		$("#resumeButton").fadeOut("slow", function() {
 			$("#homeButton").fadeIn("slow");
