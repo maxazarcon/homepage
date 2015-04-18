@@ -18,6 +18,10 @@ body {
 	background-color: rgba(0,0,0,.1);
 	border-radius: 10px;
 }
+.section {
+	width: 100%;
+	padding: 0;
+}
 .row div {
 	display: inline;
 }
@@ -30,6 +34,7 @@ body {
 .clear {
 	clear: both;
 }
-.tools {
-	text-align: left;
+.skillSection {
+	width: 45%;
+	display: inline;
 }
